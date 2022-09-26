@@ -1,0 +1,8 @@
+{
+  "app": "node ./iac/index",
+
+  "context": {
+    "aws-cdk:enableDiffNoFail": "true",
+    "@aws-cdk/core:stackRelativeExports": "true"
+  }
+}

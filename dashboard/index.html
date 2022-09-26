@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<title>Unicorn Dashboard :: Serverless Data Processing on AWS</title>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1, shrink-to-fit=no' name='viewport'>
+<link href='https://a0.awsstatic.com/main/images/site/fav/favicon.ico' rel='icon' type='image/ico'>
+<link href='./bootstrap.min.css' rel='stylesheet'>
+<link href='./leaflet.css' rel='stylesheet'>
+<link href='./dashboard.css' rel='stylesheet'>
+</head>
+<body>
+<div id='map'>
+<div class='modal fade' data-backdrop='static' id='modal'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form>
+<div class='modal-header'>
+<h6 class='modal-title'>Configure Dashboard</h6>
+</div>
+<div class='modal-body'>
+<div class='alert alert-danger notice' id='error'></div>
+<div class='form-group'>
+<label for='cognitoIdentityPoolId'>Cognito Identity Pool ID</label>
+<input autocomplete='off' class='form-control' id='cognitoIdentityPoolId' spellcheck='false' type='text'>
+</div>
+</div>
+<div class='modal-footer'>
+<button class='btn btn-primary' id='start'>Start</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<script language="JavaScript" type="text/javascript" src='./jquery-3.2.1.slim.min.js'></script>
+<script language="JavaScript" type="text/javascript" src='./popper.min.js'></script>
+<script language="JavaScript" type="text/javascript" src='./bootstrap.min.js'></script>
+<script language="JavaScript" type="text/javascript" src='./leaflet.js'></script>
+<script language="JavaScript" type="text/javascript" src='./aws-sdk-2.115.0.min.js'></script>
+<script language="JavaScript" type="text/javascript" src='./cookies.js'></script>
+<script language="JavaScript" type="text/javascript" src='./dashboard.js'></script>
+</body>

@@ -1,0 +1,14 @@
+*.js
+!.eslintrc.js
+!jest.config.js
+*.d.ts
+node_modules
+iac
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Python Caches
+*__pycache__*
+

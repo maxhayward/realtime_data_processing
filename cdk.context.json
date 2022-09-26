@@ -1,0 +1,19 @@
+{
+  "availability-zones:account=984806001929:region=eu-west-1": [
+    "eu-west-1a",
+    "eu-west-1b",
+    "eu-west-1c"
+  ],
+  "hosted-zone:account=984806001929:domainName=maxhayward.co.uk:region=eu-west-1": {
+    "Id": "/hostedzone/Z1QI2UJK2CTDR2",
+    "Name": "maxhayward.co.uk."
+  },
+  "acknowledged-issue-numbers": [
+    22090,
+    21902
+  ],
+  "hosted-zone:account=984806001929:domainName=mph.sh:region=eu-west-1": {
+    "Id": "/hostedzone/Z05978231YTKESXTA01A8",
+    "Name": "mph.sh."
+  }
+}

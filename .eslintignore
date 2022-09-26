@@ -1,0 +1,3 @@
+# ignore any derived files.  These are not modified by user
+*.d.ts
+node_modules
