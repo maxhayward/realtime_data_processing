@@ -12,3 +12,4 @@ cdk.out
 # Python Caches
 *__pycache__*
 
+!dashboard/*.js
